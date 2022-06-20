@@ -18,7 +18,7 @@ import DarkMode from '../components/dark-mode'
 export default function Header({ title, type, description }) {
   const menu = DefaultMenuStructure('header')
   const pageTitle =
-    (siteConfig.siteMetadata.title || 'Gatsby Garden') +
+    (siteConfig.siteMetadata.title || 'Jeremy Craig') +
     (title ? ` : ${title}` : '')
 
   const handleHamburgerMenuClick = e => {
