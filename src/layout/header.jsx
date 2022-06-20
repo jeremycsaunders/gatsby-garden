@@ -94,7 +94,7 @@ export default function Header({ title, type, description }) {
                 fill="var(--text-main)"
               />
             </svg>
-            <h4>{siteConfig.siteMetadata.title || 'Gatsby Garden'}</h4>
+            <h4>{siteConfig.siteMetadata.title || 'Jeremy Craig'}</h4>
           </Link>
           <div className="navbar-item navbar-dark-mode__mobile is-hidden-tablet">
             <DarkMode />
